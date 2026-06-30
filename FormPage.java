@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput;
+
 public class FormPage {
     WebDriver driver;
 
@@ -28,6 +30,7 @@ public class FormPage {
         nameInput.clear();
         emailInput.clear();
         submitBtn.click();
+        System.out.println("try your best");
     }
 
     public boolean isNameErrorShown() {
