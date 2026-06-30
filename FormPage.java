@@ -31,7 +31,7 @@ public class FormPage {
         emailInput.clear();
         submitBtn.click();
         System.out.println("try your best");
-    }
+    }   System.out.println("try again");
 
     public boolean isNameErrorShown() {
         return nameError.isDisplayed();
